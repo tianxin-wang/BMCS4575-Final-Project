@@ -25,7 +25,7 @@ Accurately mapping gene expression at single-cell resolution across tissue is vi
 
 ## Dependencies
 
-Install with:
+Install in a new conda environment with:
 
 ```bash
 conda create --name <env_name> --file requirements.txt
