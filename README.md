@@ -6,13 +6,13 @@ This repository contains the code and pipelines used in our final project for BM
 
 ---
 
-## 📄 Abstract
+## Abstract
 
 Accurate reconstruction of gene expression across tissue architecture is a core problem in spatial biology. In this project, we aim to impute full-transcriptome spatial maps using a subset of genes measured in the Xenium platform, guided by paired single-cell FFPE RNA-seq data. We leverage Tangram, a probabilistic cell-to-space alignment method, and examine whether enriching the input space using scGPT embeddings improves mapping accuracy. Using cosine similarity and Gromov-Wasserstein distance, we benchmark the quality of gene expression recovery and spatial coherence. Results indicate that while scGPT embeddings preserve biological structure, they provide minimal improvements in gene-level imputation tasks, highlighting the robustness of Tangram’s original formulation.
 
 ---
 
-## 📁 File Descriptions
+## File Descriptions
 
 | File | Description |
 |------|-------------|
@@ -23,9 +23,15 @@ Accurate reconstruction of gene expression across tissue architecture is a core 
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 Install with:
 
 ```bash
 pip install -r requirements.txt
+```
+---
+
+## Authors
+- Qingyuan Cai
+- Tianxin Wang
