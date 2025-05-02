@@ -25,7 +25,7 @@ logging.basicConfig(
 )
 
 DATA_DIR = "./processed_data"
-OUTPUT_DIR = "./scgpt-results-hvg"
+OUTPUT_DIR = "./scgpt-results-hvg-concat"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Set random seed for reproducibility
