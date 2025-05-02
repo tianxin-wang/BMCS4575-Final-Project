@@ -17,8 +17,8 @@ Accurately mapping gene expression at single-cell resolution across tissue is vi
 | File | Description |
 |------|-------------|
 | `preprocess.py` | Preprocesses the FFPE, Xenium, and Visium datasets. Includes normalization, gene filtering, and dimensionality reduction. |
-| `scgpt_tangram_combined.py` | Main pipeline for running Tangram on scGPT embeddings, including leave-one-out gene benchmarking and spatial visualization. |
 | `test_tangram.py` | Runs standard Tangram mapping directly on gene expression matrices. Includes baseline benchmarking code. |
+| `scgpt_tangram_combined.py` | Main pipeline for running Tangram on scGPT embeddings, including benchmarking code. |
 | `test_visium_benchmark.py` | Evaluates imputed Xenium gene maps against Visium using Gromov-Wasserstein distance for spatial alignment comparison. |
 
 ---
